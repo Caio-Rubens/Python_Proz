@@ -8,5 +8,3 @@ while x <= 5:
 
 pessoas.sort()
 print(pessoas)
-
-    
