@@ -1,4 +1,6 @@
 #Farmacia
+print('-----------Farmacia----------')
+
 def farmacia(telefone, nome, endereco, cnpj):
     print('-----------Farmacia----------')
     print(f'Nº telefone: {telefone}')
@@ -11,6 +13,7 @@ nome = input('Nome da farmacia: ')
 endereco  = input('Nº Endereço: ')
 cnpj = input('Número do CNPJ: ')
 
+print('-----------Produto-----------')
 #Produto
 def produto(codigo, qtd, valor):
     print('')
@@ -23,6 +26,7 @@ codigo = input('Codigo: ')
 qtd = int(input('Quatidade: '))
 valor  = float(input('Valor do prduto: '))
 
+print('---------Farmaceutico--------')
 #Farmaceutico
 def farmaceutico(rg, nome):
     print('')
@@ -33,7 +37,7 @@ def farmaceutico(rg, nome):
 rg = input('RG do farmaceutico: ')
 nome  = input('Nome do formaceutico: ')
 
-print('')
+print('------------------------------------------')
 print('FICHA TECNICA')
 farmacia(telefone, nome, endereco, cnpj)
 farmaceutico(rg, nome)
