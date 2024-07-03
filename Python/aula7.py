@@ -1,2 +1,2 @@
-import aula7
-aula7.olaMundo('Macho','ALFA')
+import aula6
+aula6.olaMundo('Macho','ALFA')
