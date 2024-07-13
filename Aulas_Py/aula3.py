@@ -1,8 +1,9 @@
 def soma(a, b):
     soma = a + b
-    print(soma)
+    
+    print(round(soma, 2))
 
-a = int(input('Digite: '))
-b = int(input('Digite: '))
+a = float(input('Digite: '))
+b = float(input('Digite: '))
 
 soma(a , b)
