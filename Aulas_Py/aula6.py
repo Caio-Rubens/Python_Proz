@@ -3,6 +3,6 @@ def olaMundo(Nome, apelido):
 
 Nome = input('Nome:').capitalize()
 
-olaMundo(Nome, 'Gay')
+olaMundo(Nome, 'VIADO')
 if Nome == 'Igor':
     print('True')
