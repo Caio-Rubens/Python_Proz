@@ -23,4 +23,4 @@ else:
     aumento = salario * 1.5
     salario = salario + aumento
 
-print(f'Salario do viado é {salario:.2f}')
+print(f'Salario do viado é R${salario:.2f}')
