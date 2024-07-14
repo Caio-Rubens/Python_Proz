@@ -1,16 +1,16 @@
-# # condicionais 
-# if (input("Seu nome:").lower()) == 'caio':
-#     print('Seu nome é bonito')
+# condicionais 
+if (input("Seu nome:").lower()) == 'caio':
+     print('Seu nome é bonito')
 
 # else:
-#     print('Seu nome é feio.')
+     print('Seu nome é feio.')
 
-# nome = input("Seu nome:").lower()
-# if nome == 'caio':
-#     print('Seu nome é bonito')
+nome = input("Seu nome:").lower()
+if nome == 'caio':
+     print('Seu nome é bonito')
 
-# else:
-#     print('Seu nome é feio.')
+else:
+     print('Seu nome é feio.')
 
 # 2º senário
 salario = float(input('Qual é o seu sálario: '))
