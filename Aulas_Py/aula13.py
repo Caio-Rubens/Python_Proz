@@ -30,5 +30,11 @@ else:
 if 3.50 in dic_produtos.values():
     print('Existe.')
 
-else:
-    print('Não existe.')
+# else:
+#     print('Não existe.')
+
+nome_item = input('Nome produto: ')
+preco_item = input('Valor do produto: ')
+
+dic_item = {nome_item, preco_item}
+print(dic_item)
