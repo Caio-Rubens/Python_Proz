@@ -5,9 +5,11 @@ nome_item = input('Nome produto: ')
 preco_item = input('Valor do produto: ')
 
 if nome_item in dic_item:
+    print('Exite item.')
     dic_item[nome_item] = preco_item
     print(dic_item)
 
 else:
+    print('Não exite item.')
     dic_item[nome_item] = preco_item
     print(dic_item)
