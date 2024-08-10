@@ -1,6 +1,5 @@
 dic_item = {'pera':1.45, 'laranja':3.5, 'abacaxi':8.48, 'mexirica':5.78}
 
-
 nome_item = input('Nome produto: ')
 preco_item = input('Valor do produto: ')
 
@@ -13,3 +12,10 @@ else:
     print('Não exite item.')
     dic_item[nome_item] = preco_item
     print(dic_item)
+
+item = 'pera'
+
+novo_preco = dic_item[item] * 0.1
+dic_item[item] = novo_preco
+print(novo_preco)
+
